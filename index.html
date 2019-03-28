@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Book List</title>
+</head>
+<body>
+     <div class="container">
+         <h1>Add Book</h1>
+         <form id="address-form">
+             <div>
+             <label for="firstName">First Name</label>
+             <input type="text" id="firstName" class="u-full-width">
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" class="u-full-width">
+               </div>
+            <div>
+             <label for="email">Email</label>
+             <input type="email" id="email" class="u-full-width">
+            </div>
+            <div>
+             <label for="tel">Phone</label>
+             <input type="tel" id="tel" class="u-full-width">
+            </div>
+            <div>
+            <input type="submit" value="submit" class="u-full-width">
+        </div>
+         </form>
+         <table class="u-full-width">
+             <thead>
+                 <tr>
+                     <th>First Name</th>
+                     <th>Surname</th>
+                     <th>Email</th>
+                     <th>Phone</th>
+                     <th></th>
+                 </tr>
+             </thead>
+             <tbody id="address-list"></tbody>
+         </table>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
